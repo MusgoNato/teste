@@ -18,3 +18,15 @@ typedef struct {
 } Emprestimo;
 
 void cadastrarLivros();
+
+void listarLivros();
+
+void pesquisarLivroPorTitulo();
+
+void FazerEmprestimo();
+
+void Devolverlivro();
+
+void salvarLivro(Livro);
+
+void salvarEmprestimo(Emprestimo);
