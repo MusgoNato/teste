@@ -4,6 +4,12 @@
 # include <locale.h>
 # include "funcoes.h"
 
+/*Compilar
+gcc jessica.c -o jessica.exe funcoes.c -Wall -pedantic -Wextra -Werror*/
+
+/*Executar
+jessica.exe*/
+
 /*Main principal*/
 int main() {
     int opcao;

@@ -3,7 +3,8 @@
 # include "funcoes.h"
 
 /*Cadastramento dos livros*/
-void cadastrarLivros() {
+void cadastrarLivros() 
+{
     Livro livro;
     printf("ID do Livro: ");    
     scanf("%d", &livro.id);
@@ -20,7 +21,8 @@ void cadastrarLivros() {
 }
 
 /*Listagem de livros*/
-void listarLivros() {
+void listarLivros() 
+{
     FILE *arquivo = fopen(ARQUIVO_LIVROS, "r");
     Livro livro;
     if (arquivo == NULL) 
@@ -38,7 +40,8 @@ void listarLivros() {
 }
 
 /*Responsavel pela busca do livro pelo titulo do proprio*/
-void pesquisarLivroPorTitulo() {
+void pesquisarLivroPorTitulo() 
+{
     Livro livro;
     int encontrado = 0;
     char tituloPesquisa[MAX_TITULO];
