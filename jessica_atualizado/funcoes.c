@@ -4,7 +4,7 @@
 
 void Aloca_memoria(LIVRO *livro)
 {
-    
+    livro = (LIVRO *)malloc();
 }
 
 void Menu()

@@ -1,9 +1,11 @@
-#define ARQUIVO_LIVROS "livros.txt"
-#define ARQUIVO_EMPRESTIMOS "emprestimos.txt"
-#define MAX_TITULO 100
-#define MAX_AUTOR 100
-#define MAX_USUARIO 100
+/*Definicoes*/
+# define ARQUIVO_LIVROS "livros.txt"
+# define ARQUIVO_EMPRESTIMOS "emprestimos.txt"
+# define MAX_TITULO 100
+# define MAX_AUTOR 100
+# define MAX_USUARIO 100
 
+/*Registros*/
 typedef struct {
     int id;
     char titulo[MAX_TITULO];
@@ -17,6 +19,8 @@ typedef struct {
     char data[10];
 } Emprestimo;
 
+
+/*Prototipos das funcoes*/
 void cadastrarLivros();
 
 void listarLivros();
